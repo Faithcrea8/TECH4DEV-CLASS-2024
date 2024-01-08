@@ -133,7 +133,7 @@ def last_index_of_value(lst, value):
     except ValueError:
         print(f"{value} not found in the list. The last index is -1.")
 
-# Example usage:
+# Example:
 my_list = [74, 85, 102, 99, 101, 85, 56]
 value_to_find = 85
 
@@ -142,7 +142,7 @@ def combine_lists(list1, list2):
     combined_list = list1 + list2
     print("Combined List:", combined_list)
 
-# Example usage:
+# Example:
 list_a = [2, 6, 7, 4, 23]
 list_b = [53, 14, 45, 89, 5]
 
@@ -164,7 +164,7 @@ def last_index_of_value(lst, value):
     last_index = len(lst) - 1 - lst[::-1].index(value) if value in lst  else -1
     print(f"The last index of {value} is: {last_index}")
 
-# Example usage:
+# Example:
 my_list = [74, 85, 102, 99, 101, 85, 56]
 value_to_find = 85
 
@@ -189,7 +189,7 @@ def calculate_range(lst):
 
     print(f"The range of values in the list is: {value_range}")
 
-# Example usage:
+# Example:
 my_list = [36, 12, 25, 19, 46, 31, 22]
 calculate_range(my_list)
 
@@ -241,7 +241,7 @@ def is_sorted(lst):
     sorted_check = all(lst[i] <= lst[i + 1] for i in range(len(lst) - 1))
     print(sorted_check)
 
-# Example usage:
+# Example:
 list1 = [16.1, 12.3, 22.2, 14.4]
 list2 = [1.5, 4.3, 7.0, 19.5, 25.1, 46.2]
 
